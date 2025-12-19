@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: #f5b82e;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #1e1e2f;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 320px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.4);
+}
+
+.card h2 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.counter {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2e2e4f;
+  padding: 6px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+}
+
+.complete {
+  background: purple;
+  color: white;
+  border: none;
+  padding: 4px 6px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.delete {
+  background: red;
+  color: white;
+  border: none;
+  padding: 4px 6px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input {
+  width: 100%;
+  padding: 6px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+.add {
+  width: 100%;
+  margin-top: 8px;
+  padding: 6px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.error {
+  color: #ff8080;
+  font-size: 13px;
+  margin-top: 5px;
+  text-align: center;
+}
+
